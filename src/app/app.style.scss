@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .content {
+    @apply min-h-screen w-full flex flex-col justify-center items-center overflow-x-hidden;
+  }
+
+  main {
+    @apply max-w-5xl w-full mx-auto;
+  }
+
+  .title {
+    @apply flex items-center gap-2;
+  }
+
+  img {
+    @apply w-10;
+  }
+
+  h1 {
+    @apply text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-orange-300 via-orange-500 to-yellow-300;
+  }
+}

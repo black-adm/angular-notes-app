@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  form {
+    @apply w-full py-8;
+  }
+
+  input {
+    @apply bg-transparent text-4xl font-light tracking-tight outline-none placeholder:text-stone-100;
+  }
+
+  hr {
+    @apply text-orange-300 max-w-lg my-4;
+  }
+}
