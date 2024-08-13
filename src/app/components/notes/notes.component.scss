@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .content {
+    @apply grid grid-cols-3 gap-4 my-8;
+  }
+
+  .card {
+    @apply bg-zinc-900 h-72 max-w-sm rounded-md p-5 hover:border hover:border-yellow-300;
+  }
+
+  strong {
+    @apply text-lg font-medium;
+  }
+
+  p {
+    @apply text-sm pt-3;
+  }
+}

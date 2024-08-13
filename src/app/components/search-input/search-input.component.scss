@@ -7,11 +7,19 @@
     @apply w-full py-8;
   }
 
+  .input-container {
+    @apply relative;
+  }
+
+  svg {
+    @apply absolute left-1.5 top-1.5 size-8;
+  }
+
   input {
-    @apply bg-transparent text-4xl font-light tracking-tight outline-none placeholder:text-stone-100;
+    @apply bg-transparent text-4xl font-light tracking-tight outline-none placeholder:text-stone-100 pl-16;
   }
 
   hr {
-    @apply text-orange-300 max-w-lg my-4;
+    @apply text-orange-300 max-w-3xl my-4;
   }
 }
